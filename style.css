@@ -1,8 +1,8 @@
 @import "compass/css3";
 
-$complete: #2ECC71;
-$active: #3498DB;
-$mute: #DFE3E4;
+$complete: #2ecc71;
+$active: #3498db;
+$mute: #dfe3e4;
 
 .progress {
   list-style: none;
@@ -18,7 +18,7 @@ $mute: #DFE3E4;
     display: table-cell;
     text-align: center;
     font-size: 0.8em;
-    
+
     &:before {
       content: attr(data-step);
       display: block;
@@ -34,7 +34,7 @@ $mute: #DFE3E4;
       z-index: 1000;
     }
     &:after {
-      content: '';
+      content: "";
       position: absolute;
       display: block;
       background: $mute;
@@ -50,44 +50,46 @@ $mute: #DFE3E4;
     }
     &.is-complete {
       color: $complete;
-      
+
       &:before,
       &:after {
-        color: #FFF;
+        color: #fff;
         background: $complete;
       }
     }
     &.is-active {
       color: $active;
-      
+
       &:before {
-        color: #FFF;
+        color: #fff;
         background: $active;
       }
     }
   }
 }
-  /**
+/**
    * Needed for IE8
    */
-  .progress__last:after {
-    display: none!important;
-  }
+.progress__last:after {
+  display: none !important;
+}
 
-  /**
+/**
    * Size Extensions
    */
-  .progress--medium {
-    font-size: 1.5em;
-  }
-  .progress--large {
-    font-size: 2em;
-  }
+.progress--medium {
+  font-size: 1.5em;
+}
+.progress--large {
+  font-size: 2em;
+}
 
 /**
  * Some Generic Stylings
  */
-*, *:after, *:before {
+*,
+*:after,
+*:before {
   box-sizing: border-box;
 }
 h1 {
@@ -99,7 +101,7 @@ h1 {
 a {
   color: $active;
   text-decoration: none;
-  
+
   &:hover {
     text-decoration: underline;
   }
