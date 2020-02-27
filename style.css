@@ -131,8 +131,19 @@ body {
 img {
   width: 100%;
   height: auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: -16px;
+  margin-bottom: -20px;
 }
 
-p { color: white; font-size: 16px; font-family: "Libre Baskerville", serif; line-height: 19px; text-align: center; text-shadow: 0 1px 1px #000; padding-top: 20px; background: #47C6EF; padding:10px; overflow: hidden;}
+p {
+  color: white; 
+  font-size: 19px; 
+  font-family: "Libre Baskerville", serif; 
+  line-height: 26px; 
+  text-align: center; 
+  text-shadow: 0 1px 1px #000; 
+  padding-top: 20px; 
+  background: #47C6EF; 
+  padding:53px; 
+  overflow: hidden;
+}
